@@ -22,14 +22,4 @@ module.exports = function (plop) {
       },
     ],
   });
-  plop.setGenerator('Create Styled Component', {
-    prompts: promptsNameAndPath,
-    actions: [
-      {
-        type: 'add',
-        path: '../app-cs/{{path}}/styles.ts',
-        templateFile: './styles/style.ts.hbs',
-      },
-    ],
-  });
 };

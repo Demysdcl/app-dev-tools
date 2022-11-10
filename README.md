@@ -17,11 +17,10 @@ Quando precisar acionar os automatizadores utilize o terminal apontado para **_a
 
 ## Tabela de opções
 
-| Opção                  | Descrição                                     |
-| ---------------------- | --------------------------------------------- |
-| Create Basic Component | Cria a estrutura base de um componente        |
-| Create Basic Style     | Cria a estrutura base de um arquivo styles.ts |
+| Opção                  | Descrição                              |
+| ---------------------- | -------------------------------------- |
+| Create Basic Component | Cria a estrutura base de um componente |
 
 ## Criação de um componente
 
-Para criar um componente você deve informar o nome e o caminho onde ele deve ser criado
+Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado
