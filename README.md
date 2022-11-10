@@ -1,20 +1,27 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# App Dev Tools
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Este é o projeto auxiliar para o projeto _app-cs_
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+- [App Dev Tools](#app-dev-tools)
+  - [Utilização do projeto](#utilização-do-projeto)
+  - [Tabela de opções](#tabela-de-opções)
+  - [Criação de um componente](#criação-de-um-componente)
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Utilização do projeto
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Para utilizar este projeto, você precisa copiar o projeto **_app-cs_** para dentro da pasta raiz deste projeto.
+
+Mantenha um terminal apontado para a raiz do **_app-dev-tools_** e outro para a raiz do **_app-cs_**.
+
+Quando precisar acionar os automatizadores utilize o terminal apontado para **_app-dev-tools_** e digite: `yarn automation`
+
+## Tabela de opções
+
+| Opção                  | Descrição                                     |
+| ---------------------- | --------------------------------------------- |
+| Create Basic Component | Cria a estrutura base de um componente        |
+| Create Basic Style     | Cria a estrutura base de um arquivo styles.ts |
+
+## Criação de um componente
+
+Para criar um componente você deve informar o nome e o caminho onde ele deve ser criado

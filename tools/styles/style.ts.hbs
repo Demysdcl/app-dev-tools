@@ -1,0 +1,10 @@
+import { styled } from '@contasimples/simples-react-native-ui';
+import { spacing } from '@src/styles/spacing';
+
+const { xxs } = spacing;
+
+export const {{pascalCase name}} = styled.View`
+  flex: 1;
+  padding: ${({ theme }) => theme.spacing(xxs)};
+  background-color: ${({ theme }) => theme.palette.neutral.lighter};
+`;
