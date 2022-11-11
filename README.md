@@ -66,4 +66,4 @@ npm run automation
 
 ### Criação de um componente
 
-Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_**
+Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_** ou **_Copiar caminho relativo_**
