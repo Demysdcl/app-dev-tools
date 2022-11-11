@@ -9,15 +9,13 @@ Este é o projeto auxiliar para o projeto _app-cs_
   - [show-colors](#show-colors)
   - [automation](#automation)
     - [Tabela de opções](#tabela-de-opções)
-  - [Criação de um componente](#criação-de-um-componente)
+    - [Criação de um componente](#criação-de-um-componente)
 
 ## Utilização do projeto
 
 Para utilizar este projeto, você precisa copiar o projeto **_app-cs_** para dentro da pasta raiz deste projeto.
 
-Mantenha um terminal apontado para a raiz do **_app-dev-tools_** e outro para a raiz do **_app-cs_**.
-
-Quando precisar acionar os automatizadores utilize o terminal apontado para **_app-dev-tools_**
+Abra diretamente o **_app-cs_** no VSCode e mantenha um terminal apontado para a raiz do **_app-dev-tools_** e outro para a raiz do **_app-cs_**.
 
 ## scripts
 
@@ -25,9 +23,9 @@ Este projeto possui os seguinte scripts
 
 | scripts         | description                                      |
 | --------------- | ------------------------------------------------ |
-| **automation**  | script com automatização de criação de arquivos  |
-| **show-colors** | mostras os nomes e valores das cores do theme CS |
 | **color-name**  | pesquisar o nome de um color hex                 |
+| **show-colors** | mostras os nomes e valores das cores do theme CS |
+| **automation**  | script com automatização de criação de arquivos  |
 
 ## color-name
 
@@ -66,6 +64,6 @@ npm run automation
 | Create Component | Cria a estrutura base de um componente          |
 | Create Context   | Cria a estrutura base de um contexto e provider |
 
-## Criação de um componente
+### Criação de um componente
 
 Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_**
