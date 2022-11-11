@@ -23,4 +23,6 @@ Quando precisar acionar os automatizadores utilize o terminal apontado para **_a
 
 ## Criação de um componente
 
-Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado
+Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_**
+
+![selecionar caminho](./assets/get-path.png)
