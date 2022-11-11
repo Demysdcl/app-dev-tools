@@ -1,0 +1,13 @@
+import { createContext } from 'react';
+
+export interface {{pascalCase name}}ContextProps {
+  value: string;
+  setValue: (value: string) => void;
+}
+
+const INITIAL_STATE: {{pascalCase name}}ContextProps = {
+  value: '',
+  setValue: () => null,
+};
+
+export const CreateDepartmentContext = createContext(INITIAL_STATE);

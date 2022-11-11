@@ -1,0 +1,29 @@
+import React, { useMemo } from 'react';
+import {
+  {{pascalCase name}}Context,
+  {{pascalCase name}}Context,
+} from './{{pascalCase name}}Context';
+
+interface {{pascalCase name}}ProviderProps {
+  children: ReactElement;
+}
+
+export const {{pascalCase name}}Provider = ({
+  children,
+}: {{pascalCase name}}ProviderProps) => {
+  const [value, setValue] = useState('');
+
+  const value = useMemo<{{pascalCase name}}ContextProps>(
+    () => ({
+      value,
+      setValue
+    }),
+    [value, setValue]
+  );
+
+  return (
+    <{{pascalCase name}}Context.Provider value={value}>
+      {children}
+    </{{pascalCase name}}Context.Provider>
+  );
+};
