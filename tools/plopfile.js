@@ -22,7 +22,7 @@ module.exports = function (plop) {
       },
     ],
   });
-  plop.setGenerator('Create Component with Named', {
+  plop.setGenerator('Create Component with Named Filed', {
     prompts: promptsNameAndPath,
     actions: [
       {

@@ -10,6 +10,8 @@ Este é o projeto auxiliar para o projeto _app-cs_
   - [automation](#automation)
     - [Tabela de opções](#tabela-de-opções)
     - [Criação de um componente](#criação-de-um-componente)
+    - [Criação de um componente nomeado](#criação-de-um-componente-nomeado)
+    - [Criação de um contexto](#criação-de-um-contexto)
 
 ## Utilização do projeto
 
@@ -59,11 +61,20 @@ npm run automation
 
 ### Tabela de opções
 
-| Opção            | Descrição                                       |
-| ---------------- | ----------------------------------------------- |
-| Create Component | Cria a estrutura base de um componente          |
-| Create Context   | Cria a estrutura base de um contexto e provider |
+| Opção                             | Descrição                                                            |
+| --------------------------------- | -------------------------------------------------------------------- |
+| Create Component                  | Cria a estrutura base de um componente com index and style           |
+| Create Component with Named Filed | Cria a estrutura base de um componente com index, style e named file |
+| Create Context                    | Cria a estrutura base de um contexto e provider                      |
 
 ### Criação de um componente
 
 Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_** ou **_Copiar caminho relativo_**
+
+### Criação de um componente nomeado
+
+Para criar um componente você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_** ou **_Copiar caminho relativo_**
+
+### Criação de um contexto
+
+Para criar um contexto você deve informar o **_nome_** e o **_caminho_** onde ele deve ser criado. Para pegar o caminha clique com o botão direito do mouse sobre a pasta que deseja criar o componente e clique em **_Copy Relative Path_** ou **_Copiar caminho relativo_**
