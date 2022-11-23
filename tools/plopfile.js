@@ -22,6 +22,16 @@ module.exports = function (plop) {
       },
     ],
   });
+  plop.setGenerator('Create Component with Named', {
+    prompts: promptsNameAndPath,
+    actions: [
+      {
+        type: 'addMany',
+        destination: '../app-cs/{{path}}/{{pascalCase name}}',
+        templateFiles: './component-index',
+      },
+    ],
+  });
   plop.setGenerator('Create Context', {
     prompts: promptsNameAndPath,
     actions: [

@@ -1,1 +1,16 @@
-export { {{pascalCase name}}  } from './{{pascalCase name}}'
+import React from 'react';
+import {Text} from 'react-native'
+import * as S from './styles';
+
+interface {{pascalCase name}}Props {
+  value: string;
+}
+
+export const {{pascalCase name}} = ({ value }: {{pascalCase name}}Props) => {
+  return (
+    <S.{{pascalCase name}}Container>
+      <Text>{value}</Text>
+    </S.{{pascalCase name}}Container>
+  );
+}
+
