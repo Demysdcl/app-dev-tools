@@ -12,7 +12,7 @@ const promptsNameAndPath = [
 ];
 
 module.exports = function (plop) {
-  plop.setGenerator('Create Component', {
+  plop.setGenerator('Create Component (index.tsx - styles.ts)', {
     prompts: promptsNameAndPath,
     actions: [
       {
@@ -22,13 +22,13 @@ module.exports = function (plop) {
       },
     ],
   });
-  plop.setGenerator('Create Component with Named Filed', {
+  plop.setGenerator('Create Component ($name.tsx index.ts - styles.ts)', {
     prompts: promptsNameAndPath,
     actions: [
       {
         type: 'addMany',
         destination: '../app-cs/{{path}}/{{pascalCase name}}',
-        templateFiles: './component-index',
+        templateFiles: './component-named',
       },
     ],
   });
