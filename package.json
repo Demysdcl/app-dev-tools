@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "automation": "plop --plopfile=tools/plopfile.js",
-    "show-spacing": "node ./scripts/spacingNames.js",
     "show-colors": "node ./scripts/getColors.js",
+    "show-spacing": "node ./scripts/spacingNames.js",
     "color-name": "grep -rnw './scripts/colors.js' -e $COLOR"
   },
   "keywords": [],
