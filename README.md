@@ -61,11 +61,11 @@ npm run automation
 
 ### Tabela de opções
 
-| Opção                             | Descrição                                                            |
-| --------------------------------- | -------------------------------------------------------------------- |
-| Create Component                  | Cria a estrutura base de um componente com index and style           |
-| Create Component with Named Filed | Cria a estrutura base de um componente com index, style e named file |
-| Create Context                    | Cria a estrutura base de um contexto e provider                      |
+| Opção                            | Descrição                                                            |
+| -------------------------------- | -------------------------------------------------------------------- |
+| Create Component                 | Cria a estrutura base de um componente com index and style           |
+| Create Component with Named File | Cria a estrutura base de um componente com index, style e named file |
+| Create Context                   | Cria a estrutura base de um contexto e provider                      |
 
 ### Criação de um componente
 

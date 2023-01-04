@@ -1,7 +1,8 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, ReactElement } from 'react';
+
 import {
   {{pascalCase name}}Context,
-  {{pascalCase name}}Context,
+  {{pascalCase name}}ContextProps,
 } from './{{pascalCase name}}Context';
 
 interface {{pascalCase name}}ProviderProps {
@@ -11,18 +12,18 @@ interface {{pascalCase name}}ProviderProps {
 export const {{pascalCase name}}Provider = ({
   children,
 }: {{pascalCase name}}ProviderProps) => {
-  const [value, setValue] = useState('');
+  const [state, setState] = useState('');
 
-  const value = useMemo<{{pascalCase name}}ContextProps>(
+  const state = useMemo<{{pascalCase name}}ContextProps>(
     () => ({
-      value,
-      setValue
+      state,
+      setState
     }),
-    [value, setValue]
+    [state, setState]
   );
 
   return (
-    <{{pascalCase name}}Context.Provider value={value}>
+    <{{pascalCase name}}Context.Provider value={state}>
       {children}
     </{{pascalCase name}}Context.Provider>
   );
