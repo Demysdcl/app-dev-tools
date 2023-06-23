@@ -12,11 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@contasimples/simples-tokens": "^1.3.0"
-  },
   "devDependencies": {
-    "@types/react-native-svg-charts": "^5.0.12",
     "plop": "^3.1.1"
   }
 }
