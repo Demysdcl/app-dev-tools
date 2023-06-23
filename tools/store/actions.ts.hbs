@@ -1,0 +1,7 @@
+import { SET_{{constantCase name}} } from './constants';
+import { Set{{pascalCase name}} } from './types';
+
+export const set{{pascalCase name}} = (value: string): Set{{pascalCase name}} => ({
+  type: SET_{{constantCase name}},
+  value,
+});

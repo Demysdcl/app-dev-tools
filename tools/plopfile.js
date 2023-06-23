@@ -36,13 +36,22 @@ module.exports = function (plop) {
     prompts: promptsNameAndPath,
     actions: [
       {
-        type: 'addMany',
-        destination: '../app-cs/{{path}}/{{pascalCase name}}',
-        templateFiles: './single-file-component',
+        type: 'add',
+        path: '../app-cs/{{path}}/{{pascalCase name}}.tsx',
+        templateFile: './single-file-component/index.tsx.hbs',
       },
     ],
   });
-
+  plop.setGenerator('Create Redux Store', {
+    prompts: promptsNameAndPath,
+    actions: [
+      {
+        type: 'addMany',
+        destination: '../app-cs/{{path}}/store',
+        templateFiles: './store',
+      },
+    ],
+  });
   plop.setGenerator('Create Context', {
     prompts: promptsNameAndPath,
     actions: [

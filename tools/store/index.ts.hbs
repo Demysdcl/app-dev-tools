@@ -1,0 +1,23 @@
+
+import { SET_{{constantCase name}} } from './constants';
+import { ActionsType } from './types';
+
+interface {{pascalCase name}}State {
+    name: string;
+}
+
+const INITIAL_STATE: {{pascalCase name}}State = {
+    name: 'store',
+};
+
+export default (
+  state = INITIAL_STATE,
+  action: ActionsType
+): {{pascalCase name}}State => {
+  switch (action.type) {
+    case SET_{{constantCase name}}:
+        return { ...state, name: action.value };
+    default:
+        return state;
+  }
+};
