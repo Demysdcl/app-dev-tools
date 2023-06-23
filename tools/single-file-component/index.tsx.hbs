@@ -1,0 +1,26 @@
+import React, { useState } from 'react';
+import {Text} from 'react-native';
+import { styled, spacingNames } from '@contasimples/simples-react-native-ui';
+
+const { xxs } = spacingNames;
+
+export const {{pascalCase name}}Container = styled.View`
+  flex: 1;
+  padding: ${({ theme }) => theme.spacing(xxs)};
+  background-color: ${({ theme }) => theme.palette.neutral.lighter};
+`;
+
+interface {{pascalCase name}}Props {
+  value: string;
+}
+
+export const {{pascalCase name}} = ({ value }: {{pascalCase name}}Props) => {
+  const [state, setState] = useState();
+
+  return (
+    <{{pascalCase name}}Container>
+      <Text>{value}</Text>
+    </{{pascalCase name}}Container>
+  );
+}
+

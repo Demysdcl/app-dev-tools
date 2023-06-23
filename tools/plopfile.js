@@ -22,7 +22,7 @@ module.exports = function (plop) {
       },
     ],
   });
-  plop.setGenerator('Create Component ($name.tsx index.ts - styles.ts)', {
+  plop.setGenerator('Create Component ($name.tsx - index.ts - styles.ts)', {
     prompts: promptsNameAndPath,
     actions: [
       {
@@ -32,6 +32,17 @@ module.exports = function (plop) {
       },
     ],
   });
+  plop.setGenerator('Create a Single File Component (index.ts)', {
+    prompts: promptsNameAndPath,
+    actions: [
+      {
+        type: 'addMany',
+        destination: '../app-cs/{{path}}/{{pascalCase name}}',
+        templateFiles: './single-file-component',
+      },
+    ],
+  });
+
   plop.setGenerator('Create Context', {
     prompts: promptsNameAndPath,
     actions: [

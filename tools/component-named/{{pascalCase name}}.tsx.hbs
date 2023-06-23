@@ -1,5 +1,5 @@
-import React from 'react';
-import {Text} from 'react-native'
+import React, { useState } from 'react';
+import { Text } from 'react-native';
 import * as S from './styles';
 
 interface {{pascalCase name}}Props {
@@ -7,6 +7,8 @@ interface {{pascalCase name}}Props {
 }
 
 export const {{pascalCase name}} = ({ value }: {{pascalCase name}}Props) => {
+  const [state, setState] = useState();
+
   return (
     <S.{{pascalCase name}}Container>
       <Text>{value}</Text>
