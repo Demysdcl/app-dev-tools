@@ -32,12 +32,22 @@ module.exports = function (plop) {
       },
     ],
   });
-  plop.setGenerator('Create a Single File Component (index.ts)', {
+  plop.setGenerator('Create a Single File Component', {
     prompts: promptsNameAndPath,
     actions: [
       {
         type: 'add',
         path: '../app-cs/{{path}}/{{pascalCase name}}.tsx',
+        templateFile: './single-file-component/index.tsx.hbs',
+      },
+    ],
+  });
+  plop.setGenerator('Create a Single File Component (index.ts)', {
+    prompts: promptsNameAndPath,
+    actions: [
+      {
+        type: 'add',
+        path: '../app-cs/{{path}}/{{pascalCase name}}/index.tsx',
         templateFile: './single-file-component/index.tsx.hbs',
       },
     ],
